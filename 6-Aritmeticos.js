@@ -47,7 +47,9 @@ const numero1 = 10;
 const numero2 = 'Grazi'; 
 console.log(numero1 * numero2); //NaN -- ter cuidado com os tipos de dados 
 
-// ParseInt: converter para numero 
+// ParseInt: converte a variável em um valor numérico int 
 const numeroConv1 = 10; 
 const numeroConv2 = parseInt('5');
-console.log(numeroConv1*numeroConv2);
+const numeroConv3 = '5L'; // exemplo para 'quebrar'
+console.log('Realizando a conta utilizando a conversão para inteiro: ', numeroConv1*numeroConv2);
+console.log('Sem a conversão:', numeroConv1*numeroConv3);
