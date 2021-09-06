@@ -69,3 +69,28 @@ Os arrays são indexados por elemento
 const nomes = ['Luiz', 'Amanda', 'Fernanda'];
                  0         1          2
 ```
+
+# Aula 10 - Funções
+Definição: Funções executam ações 
+
+```
+function <nome_da_funcao>(parametros) {
+  return
+}
+```
+
+Fazendo com que uma constante receba uma função 
+```
+const <nome_da_variavel> = function(parametros){
+  return 
+}
+```
+
+E utilizando a forma de uma arrow function
+```
+const <nome_da_variavel> = (parametros) => {
+  return
+}
+```
+
+# Aula 11 -- Objetos
