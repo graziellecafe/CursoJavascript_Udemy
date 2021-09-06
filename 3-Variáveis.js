@@ -53,3 +53,12 @@ nomeConst = 'Amanda'; // ERROR! Assignment to constan variable
 console.log(nomeConst);
 
 // const firstDeclaration; //ERROR! Missing initializer in const declaration
+
+
+const nome = 'luiz'; 
+nome = 'joão'; // error to assignment to constant variable
+
+const array = [1, 2, 3, 4, 5];
+array.push(6);
+array[0] = 1024;
+console.log(array);
