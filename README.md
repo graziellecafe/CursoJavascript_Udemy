@@ -4,11 +4,16 @@ Exercícios do curso de Javascript referente ao curso da Udemy
 Github do curso: https://github.com/luizomf/curso-js
 
 # Aula 3 - Variáveis 
-  * const <nome_da_variavel>: '';
-  const descreve uma variável que não pode ser reatribuída (com o operador de atribuição =). Depois de criá-la não podemos: 
+```
+const <nome_da_variavel>: '';
+```
 
-  const nome = 'luiz';
+Definição: const descreve uma variável que não pode ser reatribuída (com o operador de atribuição =). Depois de criá-la não podemos: 
+
+  ```
+  const nome = 'luiz';  
   nome = 'joão';
+  ```
 
   Variáveis são como um apelido para um valor, uma espécie para mencionar algum valor salvo na memória. 
 
@@ -25,10 +30,13 @@ Github do curso: https://github.com/luizomf/curso-js
   Por este motivo, pode-se usar const com objetos mutáveis e ainda assim alterar seus valores internos. A única coisa que não vamos conseguir fazer é reatribuir o valor da variável.
 
   Exemplo: 
+  
+  ```
   const array = [1, 2, 3, 4, 5];
   array.push(6);
   array[0] = 1024;
   console.log(array);
+````
 
 
 # Aula 7 -- Alert e prompt 
@@ -41,25 +49,23 @@ Janela Window: objeto que contém como por exemplo o alert, document, body, etc.
 Método: quando uma função está dentro de um objeto
 
 # Aula 8 -- Strings
-String.indexOf: retorna a posição da primeira ocorrência na string
-String.charAt: Returns the character at the specified index.
-String.length: Returns the length of a string object
-String.split: Split a string into substrings usint the specified separator and return
-              them as an array.
+* String.indexOf: retorna a posição da primeira ocorrência na string
+* String.charAt: Returns the character at the specified index.
+* String.length: Returns the length of a string object
+* String.split: Split a string into substrings usint the specified separator and return them as an array.
 
 
 # Aula 9 -- Arrays
-Semelhante a uma lista 
+Definição: Semelhante a uma lista. Strings são indexadas pelo seu valor. 
 
-* Strings são indexadas pelo seu valor. 
+Para uma constante, temos: 
+```
 const nome = 'Luiz Otávio';
               123456789...
+```
 
-* Os arrays são indexados por elemento 
+Os arrays são indexados por elemento 
+```
 const nomes = ['Luiz', 'Amanda', 'Fernanda'];
                  0         1          2
-
-* Push: Array<string>.push(... items: string[])
-  Appends new elements to the end of an array, and returns the new length of the array.
-
- 
+```
